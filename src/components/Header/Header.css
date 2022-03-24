@@ -1,0 +1,29 @@
+.hd{
+    color: white;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.hd h1{
+    padding-left: 60px;
+}
+.hd div{
+    padding-right: 60px;
+}
+.dil{
+    position:relative;
+    cursor: pointer;
+}
+.dil span{
+   position: absolute;
+   top:-13px;
+   left: 12px;
+   background-color: red;
+   height: 22px;
+   width: 22px;
+   border-radius: 100%;
+   text-align: center;
+   
+}

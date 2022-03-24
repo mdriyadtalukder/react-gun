@@ -1,0 +1,39 @@
+.dv img{
+    width: 332px;
+    height: 332px;
+}
+.elm{
+    border: 1px solid grey;
+    background-color: #00000015;
+}
+.inf h2,p{
+    margin-top: 5px;
+    margin-bottom: 0;
+    padding-left: 10px;
+
+}
+.dv{
+    padding: 15px;
+}
+.bt{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    margin-top: 50px;
+}
+.bt h2{
+    margin-left: 5px;
+}
+.bt button{
+    height: 60px;
+    width:60px;
+}
+.icn{
+    font-size: 20px;
+}
+
+@media only screen and  (min-width:992px) and (max-width:1612px){
+    .dv img{
+        width: 100%;
+    }
+}
